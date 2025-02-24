@@ -77,7 +77,7 @@ func (r Result[T, E]) OrElse(defaultVal T) T {
 func (r Result[T, E]) Wrap(msg string) Result[T, error] {
 	if r.state == Failure {
 		// Convert E to error interface for wrapping.
-		wrappedErr := fmt.Errorf("%s: %v", msg, r.fault)
+		wrappedErr := fmt.Errorf("%s: %w", msg, r.fault)
 		return Fail[T, error](wrappedErr)
 	}
 	return Ok[T, error](r.value)
