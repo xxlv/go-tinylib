@@ -15,10 +15,8 @@ A lightweight Go library for handling success and failure results using a monadi
 To use this library in your Go project, run:
 
 ```bash
-go get github.com/xxlv/go-tiny-lib
+go get github.com/xxlv/go-tinylib
 ```
-
-(Replace `github.com/xxlv/go-tiny-lib` with your actual repository URL once hosted.)
 
 ## Usage
 
@@ -32,7 +30,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xxlv/go-tiny-lib"
+	"github.com/xxlv/go-tinylib"
 )
 
 func divide(a, b int) tiny.Result[int, error] {
@@ -94,22 +92,11 @@ See the [source code](./pkg/tiny.go) for detailed documentation.
 
 ## Contributing
 
-Contributions are welcome! Please submit a pull request or open an issue on the [repository](https://github.com/xxlv/go-tiny-lib) with your suggestions or bug reports.
+Contributions are welcome! Please submit a pull request or open an issue on the [repository](https://github.com/xxlv/go-tinylib) with your suggestions or bug reports.
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
----
-
-### Customization Notes:
-
-1. **Project Name**: Replace "Tiny Result Library" with your preferred project name.
-2. **Repository URL**: Update `github.com/xxlv/go-tiny-lib` to match your actual repository once it’s hosted.
-3. **License**: I assumed MIT, but you can change it to your preferred license (e.g., Apache, GPL) and add a `LICENSE` file.
-4. **Additional Sections**: Add sections like "Testing," "Examples," or "Benchmarks" if you expand the project.
-
-Let me know if you’d like to tweak this further or add specific details!
 
 ---
 
