@@ -18,8 +18,6 @@ To use this library in your Go project, run:
 go get github.com/xxlv/go-tinylib
 ```
 
-(Replace `github.com/xxlv/go-tinylib` with your actual repository URL once hosted.)
-
 ## Usage
 
 Here’s a quick example to demonstrate the core functionality:
