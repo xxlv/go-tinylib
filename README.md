@@ -102,15 +102,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-### Customization Notes:
-
-1. **Project Name**: Replace "Tiny Result Library" with your preferred project name.
-2. **Repository URL**: Update `github.com/xxlv/go-tiny-lib` to match your actual repository once it’s hosted.
-3. **License**: I assumed MIT, but you can change it to your preferred license (e.g., Apache, GPL) and add a `LICENSE` file.
-4. **Additional Sections**: Add sections like "Testing," "Examples," or "Benchmarks" if you expand the project.
-
-Let me know if you’d like to tweak this further or add specific details!
-
----
-
 _Generated with assistance from Grok, created by xAI._
